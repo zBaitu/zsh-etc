@@ -1,0 +1,30 @@
+#!/usr/local/bin/zsh
+
+function prompt_z_help()
+{
+}
+
+function prompt_z_preview ()
+{
+}
+
+function prompt_z_setup()
+{
+    local no_color="%b%f"
+    local error_color="%B%F{red}"
+    local error_str="X"
+    local bracket_color="%B%F{magenta}"
+    local user_color="%B%F{white}"
+    local at_color="%B%F{yellow}"
+    local host_color="%B%F{green}"
+    local dir_color="%B%F{cyan}"
+    local dollar_color="%B%F{red}"
+
+    PS1="%(?..${error_color}${error_str}$no_color)${bracket_color}[${user_color}%n${at_color}@${host_color}%m ${dir_color}%~${bracket_color}]${dollar_color}$ ${no_color}"
+#    PS2="%F{$default_bar_color}%K{black}$schars[333]$schars[262]$schars[261]$schars[260]%f%k>"
+
+#    prompt_opts=(cr subst percent)
+}
+
+prompt_z_setup "$@"
+
