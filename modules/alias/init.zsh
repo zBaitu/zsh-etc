@@ -25,21 +25,21 @@ alias sfc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\)$\" \
 #
 # g
 #
-alias g="git"
-alias gb="git branch"
-alias gc="git config"
-alias gcg="git config --global"
-alias gcl="git config --local"
-alias gci="git commit -m"
-alias gd="git diff"
-alias gh="git help"
-alias gha="git help -a"
-alias gl="git log"
-alias gpull="git pull"
-alias gpush="git push -u origin master"
-alias gpushbr="git push origin"
-alias gr="git remote"
-alias gs="git status"
+#alias g="git"
+#alias gb="git branch"
+#alias gc="git config"
+#alias gcg="git config --global"
+#alias gcl="git config --local"
+#alias gci="git commit -m"
+#alias gd="git diff"
+#alias gh="git help"
+#alias gha="git help -a"
+#alias gl="git log"
+#alias gpull="git pull"
+#alias gpush="git push -u origin master"
+#alias gpushbr="git push origin"
+#alias gr="git remote"
+#alias gs="git status"
 
 #
 # h
@@ -85,6 +85,8 @@ alias scrb="find . -type f -iregex \".+\.rb$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scscm="find . -type f -iregex \".+\.scm$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+alias sczsh="find . -type f -iregex \".+\.zsh$\" -exec wc -l '{}' \; \
+          | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias sf="find . -type f -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" -print0 | xargs -0 grep -H -n"
 alias tree="tree -A"
 
@@ -94,7 +96,9 @@ alias t="touch"
 # v
 #
 alias v="vim -p"
+alias vcolor="v ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim"
 alias vd="/usr/local/bin/vimdiff"
+alias vgitignore="v ~/.gitignore"
 alias vvimrc="vim ~/.vimrc"
 alias vzshalias="v ~/.zsh/modules/alias/init.zsh"
 alias vzshenv="v ~/.zsh/modules/env/init.zsh"
@@ -102,4 +106,3 @@ alias vzshfile-dir="v ~/.zsh/modules/file-dir/init.zsh"
 alias vzshrc="v ~/.zshrc";
 
 alias xargs="xargs -0"
-

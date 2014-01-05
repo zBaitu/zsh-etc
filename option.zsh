@@ -16,16 +16,20 @@ zstyle ':zsh:*:*' color 'yes'
 # Set the modules to load (browse modules).
 # The order matters.
 zstyle ':zsh:load' pmodule \
-  'env' \
-  'terminal' \
+  'alias' \
+  'archive' \
+  'completion' \
   'editor' \
+  'env' \
+  'git' \
+  'history-substring-search' \
   'history' \
   'file-dir' \
   'spectrum' \
   'utility' \
-  'completion' \
+  'syntax-highlighting' \
   'prompt' \
-  'alias'
+  'terminal'
 
 
 

@@ -61,5 +61,7 @@ fi
 #
 # env variable
 #
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
 export PATH=/usr/local/bin:/usr/local/apache2/bin:/usr/local/mysql/bin:$PATH
+export TERM=xterm-256color

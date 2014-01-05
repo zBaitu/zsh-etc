@@ -29,8 +29,6 @@ function pmodload
     # Load z ${ZSH_MODULES}.
     for pmodule in "$pmodules[@]"
     do
-#        if zstyle -t ":zsh:module:$pmodule" loaded 'yes' 'no'; then
-#            continue
         if [[ ! -d "${ZSH_PATH}/${ZSH_MODULES}/$pmodule" ]]; then
             print "$0: no such module: $pmodule" >&2
             continue
@@ -64,25 +62,23 @@ function pmodload
     done
 }
 
-
 if [[ -s "${ZSH_OPTION_PATH}" ]]; then
     source "${ZSH_OPTION_PATH}"
 fi
 
 # load zsh modules
-zstyle -a ':zsh:load' zmodule 'zmodules'
-for zmodule ("$zmodules[@]")
-    zmodload "zsh/${(z)zmodule}"
-unset zmodule{s,}
+#zstyle -a ':zsh:load' zmodule 'zmodules'
+#for zmodule ("$zmodules[@]")
+#    zmodload "zsh/${(z)zmodule}"
+#unset zmodule{s,}
 
 # autoload zsh functions
-zstyle -a ':zsh:load' zfunction 'zfunctions'
-for zfunction ("$zfunctions[@]")
-    autoload -Uz "$zfunction"
-unset zfunction{s,}
+#zstyle -a ':zsh:load' zfunction 'zfunctions'
+#for zfunction ("$zfunctions[@]")
+#    autoload -Uz "$zfunction"
+#unset zfunction{s,}
 
 # load z modules
 zstyle -a ':zsh:load' pmodule 'pmodules'
 pmodload "$pmodules[@]"
 unset pmodules
-
