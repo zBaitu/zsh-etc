@@ -19,12 +19,14 @@ function prompt_z_setup()
     local host_color="%B%F{green}"
     local dir_color="%B%F{cyan}"
     local dollar_color="%B%F{red}"
+    local git_info='$(git_prompt_info)'
 
-    PS1="%(?..${error_color}${error_str}$no_color)${bracket_color}[${user_color}%n${at_color}@${host_color}%m ${dir_color}%~${bracket_color}]${dollar_color}$ ${no_color}"
-#    PS2="%F{$default_bar_color}%K{black}$schars[333]$schars[262]$schars[261]$schars[260]%f%k>"
-
-#    prompt_opts=(cr subst percent)
+    PROMPT="%(?..${error_color}${error_str}$no_color)${bracket_color}[${user_color}%n${at_color}@${host_color}%m ${dir_color}%~${no_color}${git_info}${no_color}${bracket_color}]${dollar_color}$ ${no_color}"
 }
 
-prompt_z_setup "$@"
+ZSH_THEME_GIT_PROMPT_PREFIX='  ('
+ZSH_THEME_GIT_PROMPT_SUFFIX=')'
+ZSH_THEME_GIT_PROMPT_DIRTY='%B%F{red}'
+ZSH_THEME_GIT_PROMPT_CLEAN='%B%F{green}'
 
+prompt_z_setup

@@ -1,12 +1,6 @@
-#
-# Loads prompt themes.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
 # Load and execute the prompt theming system.
 autoload -Uz promptinit && promptinit
+setopt PROMPT_SUBST
 
 # Load the prompt theme.
 zstyle -a ':zsh:module:prompt' theme 'prompt_argv'
@@ -16,4 +10,3 @@ else
     prompt 'off'
 fi
 unset prompt_argv
-
