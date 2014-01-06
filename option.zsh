@@ -32,7 +32,7 @@ zstyle ':zsh:load' pmodule \
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':zsh:module:prompt' theme 'z' 'green'
+zstyle ':zsh:module:prompt' theme 'z'
 
 
 #

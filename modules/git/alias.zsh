@@ -1,13 +1,5 @@
 #
-# Defines Git aliases.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-#
 # Settings
-#
 #
 
 # Log
@@ -22,13 +14,40 @@ zstyle -s ':zsh:module:git:log:brief' format '_git_log_brief_format' \
 zstyle -s ':zsh:module:git:status:ignore' submodules '_git_status_ignore_submodules' \
   || _git_status_ignore_submodules='none'
 
+
 #
 # Aliases
 #
-
-# Git
 alias g='git'
-
-# diff
+# a
+alias ga='git add'
+# b
+alias gb='git branch'
+# c
+alias gci='git commit -am'
+alias gca='git config --global'
+alias gcl='git config --local'
+alias gclone='git clone'
+# d
 alias gd="git diff | sed -e 's/^diff --git [^[:space:]]*/Index:/' -e 's/^index.*/\
 ===================================================================/'"
+alias gdc="git diff --cached | sed -e 's/^diff --git [^[:space:]]*/Index:/' -e 's/^index.*/\
+===================================================================/'"
+# f
+alias gf='git fetch'
+# h
+alias gh='git help'
+# i
+alias ginit='git init'
+# l
+alias gl='git ls-files'
+alias glog='git log'
+# m
+alias gmv='git mv'
+# p
+alias gpull='git pull'
+alias gpush='git push -u origin master'
+# r
+alias grs='git remote show origin'
+# s
+alias gs='git status'
