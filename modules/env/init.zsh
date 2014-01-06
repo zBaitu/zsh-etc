@@ -1,21 +1,12 @@
 #
-# Sets general shell options and defines environment variables.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-#
 # Smart URLs
 #
-
 autoload -Uz url-quote-magic
 zle -N self-insert url-quote-magic
 
 #
 # General
 #
-
 setopt BRACE_CCL          # Allow brace character class list expansion.
 setopt RC_QUOTES          # Allow 'Henry''s Garage' instead of 'Henry'\''s Garage'.
 unsetopt MAIL_WARNING     # Don't print a warning message if a mail file has been accessed.
@@ -24,7 +15,6 @@ setopt RM_STAR_SILENT
 #
 # Jobs
 #
-
 setopt LONG_LIST_JOBS     # List jobs in the long format by default.
 setopt AUTO_RESUME        # Attempt to resume existing job before creating a new process.
 setopt NOTIFY             # Report status of background jobs immediately.
@@ -35,7 +25,6 @@ unsetopt CHECK_JOBS       # Don't report on jobs when shell exit.
 #
 # Grep
 #
-
 if zstyle -t ':zsh:environment:grep' color; then
     export GREP_COLOR='37;45'
     export GREP_OPTIONS='--color=auto'
@@ -44,7 +33,6 @@ fi
 #
 # Termcap
 #
-
 if zstyle -t ':zsh:environment:termcap' color; then
     export LESS_TERMCAP_mb=$'\E[01;31m'      # Begins blinking.
     export LESS_TERMCAP_md=$'\E[01;31m'      # Begins bold.
@@ -55,13 +43,9 @@ if zstyle -t ':zsh:environment:termcap' color; then
     export LESS_TERMCAP_us=$'\E[01;32m'      # Begins underline.
 fi
 
-
-
-
 #
 # env variable
 #
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
 export PATH=/usr/local/bin:/usr/local/apache2/bin:/usr/local/mysql/bin:$PATH
-export TERM=xterm-256color

@@ -1,15 +1,6 @@
 #
-# Sets directory options and defines directory aliases.
-#
-# Authors:
-#   James Cox <james@imaj.es>
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-#
 # Options
 #
-
 setopt AUTO_CD              # Auto changes to a directory without typing cd.
 setopt AUTO_PUSHD           # Push the old directory onto the stack on cd.
 setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
@@ -26,25 +17,27 @@ setopt SH_NULLCMD           # : is inserted as a command with the given redirect
 #
 # Aliases
 #
-
 alias d='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
+
+#
+# cd xxx
+#
+# misc# {{{
 alias c.="cd ../"
 alias c..="cd ../../"
 alias c...="cd ../../../"
 alias c....="cd ../../../../"
 alias c-="cd -"
-
 alias cd.vim="cd ~/.vim"
-
-#
-# a
-#
+# }}}
+# a# {{{
 alias cdai="cd ~/AI"
 alias cdalgorithm="cd ~/algorithm"
 alias cdapache="cd ~/apache"
-
+# }}}
+# b# {{{
 alias cdbinutils="cd ~/compiler/binutils"
 alias cdalgorithm="cd ~/algorithm"
 alias cdautools="cd ~/tools/autotools"
@@ -52,45 +45,43 @@ alias cdbak="cd ~/bak"
 alias cdbison="cd ~/compiler/bison"
 alias cdboost="cd ~/C++/boost/boost"
 alias cdbyacc="cd ~/compiler/byacc"
-
-#
-# c
-#
+# }}}
+# c# {{{
 alias cdc="cd ~/C"
 alias cdc++="cd ~/C++"
 alias cdcfe="cd ~/compiler/llvm/cfe-3.3"
 alias cdcpp="cd ~/C++"
 alias cdcompiler="cd ~/compiler"
 alias cdcurl="cd ~/net/curl"
-
+# }}}
+# d# {{{
 alias cddb="cd ~/DB"
 alias cddoc="cd ~/doc"
-
+# }}}
+# f# {{{
 alias cdflex="cd ~/compiler/flex"
+alias cdfreebsd="cd ~/OS/FreeBSD"
+# }}}
+# g# {{{
 alias cdgame="cd ~/game"
 alias cdgcc="cd ~/compiler/gcc"
 alias cdgnucxx="cd ~/compiler/gcc/libstdc++-v3"
 alias cdglibc="cd ~/C/glibc"
 alias cdgoogletest="cd ~/testing/unit-test/googletest"
-
-#
-# f
-#
-alias cdfreebsd="cd ~/OS/FreeBSD"
-
-#
-# h
-#
+# }}}
+# h# {{{
 alias cdhttpd="cd ~/apache/httpd"
 alias cdhtdocs="cd ~/workspace/apache/htdocs"
 alias cdhackerrank="cd ~/algorithm/hackerrank"
-
+# }}}
+# i# {{{
 alias cdiputils="cd ~/net/iputils"
-
+# }}}
+# j# {{{
 alias cdjs="cd ~/web/js"
-
+# }}}
+# l# {{{
 alias cdleda="cd ~/algorithm/lib/LEDA"
-
 alias cdlibcxx="cd ~/compiler/llvm/libcxx"
 alias cdlibcxxabi="cd ~/compiler/llvm/libcxxabi"
 alias cdlibstdc++="cd ~/C++/libstdc++-v3"
@@ -98,37 +89,26 @@ alias cdlinux="cd ~/OS/linux"
 alias cdllvm="cd ~/compiler/llvm"
 alias cdllvm-compiled="cd ~/compiler/llvm/llvm-compiled"
 alias cdllvmtrunk="cd ~/compiler/llvm-trunk"
-
-#
-# l
-#
 alias cdlua="cd ~/Lua"
-
-
-#
-# m
-#
+# }}}
+# m# {{{
 alias cdmemory="cd ~/OS/basic/memory"
 alias cdmix="cd ~/algorithm/TAOCP/MIX"
 alias cdmmix="cd ~/algorithm/TAOCP/MMIX"
 alias cdmysql="cd ~/DB/mysql"
-
 alias cdminix="cd ~/OS/minix"
 alias cdnet="cd ~/net"
 alias cdnettools="cd ~/net/net-tools"
 alias cdos="cd ~/OS"
-
-#
-# o
-#
+# }}}
+# o# {{{
 alias cdopenbsd="cd ~/OS/OpenBSD"
-
-#
-# p
-#
+# }}}
+# p# {{{
 alias cdphp="cd ~/web/php"
 alias cdpython="cd ~/Python"
-
+# }}}
+# r# {{{
 alias cdredis="cd ~/DB/redis"
 alias cdres="cd ~/res"
 alias cdresgame="cd ~/res/game"
@@ -139,41 +119,34 @@ alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdruby="cd ~/ruby"
-
-#
-# s
-#
+# }}}
+# s# {{{
 alias cdscheme="cd ~/scheme"
 alias cdsgistl="cd ~/C++/sgi_stl"
 alias cdsqlite="cd ~/DB/SQLite"
 alias cdsrc="cd ~/src"
 alias cdstlsoft="cd ~/C++/stlsoft"
 alias cdsvn="cd ~/svn"
-
-alias cdtesting="cd ~/testing"
-alias cdtmp="cd ~/tmp"
-alias cdthread="cd ~/OS/basic/thread"
-alias cdtools="cd ~/tools"
-
-#
-# t
-#
+# }}}
+# t# {{{
 alias cdtaocp="cd ~/z/TAOCP"
+alias cdtesting="cd ~/testing"
+alias cdthread="cd ~/OS/basic/thread"
+alias cdtmp="cd ~/tmp"
+alias cdtools="cd ~/tools"
 alias cdtriplese="cd ~/workspace/apache/htdocs/tripleSE"
-
-# u
+# }}}
+# u# {{{
 alias cdusrincludecpp="cd /usr/include/c++/4.4.0"
 alias cdut="cd ~/testing/unit-test"
-
-# w
+# }}}
+# w# {{{
 alias cdweb="cd ~/web"
-
-# y
+# }}}
+# y# {{{
 alias cdyii="cd ~/workspace/apache/htdocs/yii"
-
-#
-# z
-#
+# }}}
+# z# {{{
 alias cdz="cd ~/z"
 alias cdzcc="cd ~/z/zCC"
 alias cdzcut="cd ~/z/zCUT"
@@ -185,4 +158,4 @@ alias cdzmmix="cd ~/z/zMMIX"
 alias cdzscheme="cd ~/z/zScheme"
 alias cdzshdoc="cd ~/doc/zsh"
 alias cd.zsh="cd ~/.zsh"
-
+# }}}
