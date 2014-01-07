@@ -16,8 +16,8 @@ function prompt_z_setup()
     local bracket_color="%B%F{magenta}"
     local user_color="%B%F{white}"
     local at_color="%B%F{yellow}"
-    local host_color="%B%F{green}"
-    local dir_color="%B%F{cyan}"
+    local host_color="%B%F{cyan}"
+    local dir_color="%B%F{blue}"
     local dollar_color="%B%F{red}"
     local git_info='$(git_prompt_info)'
 
