@@ -86,6 +86,7 @@ alias vzshalias="v ~/.zsh/modules/alias/init.zsh"
 alias vzshenv="v ~/.zsh/modules/env/init.zsh"
 alias vzshfile-dir="v ~/.zsh/modules/file-dir/init.zsh"
 alias vzshgit="v ~/.zsh/modules/git/alias.zsh"
+alias vzshprompt="v ~/.zsh/modules/prompt/functions/prompt_z_setup"
 alias vzshrc="v ~/.zshrc";
 # }}}
 # x# {{{
