@@ -3,6 +3,8 @@ alias clanganalyze="clang --analyze"
 alias clang++="clang++ -std=c++11 -stdlib=libc++ -lc++abi"
 alias clang++analyze="clang++ --analyze"
 
+alias cm='cmake ..'
+
 alias cscopecpp="find . -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" > cscope.files; cscope -bqk"
 alias cscopephp="find . -iregex \".*\.\(php\|inc\)$\" > cscope.files; cscope -bqk"
 alias ctagscpp="ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"
@@ -37,6 +39,8 @@ alias lrt="l -rt"
 alias m="mmix"
 alias ma="mmixal"
 
+alias makev='make VERBOSE=1'
+
 alias mysqldrestart="service mysql restart"
 alias mysqldstart="service mysql start"
 alias mysqldstop="service mysql stop"
@@ -47,6 +51,9 @@ alias psdaemon="ps axj"
 alias psgrep="ps -ef | grep"
 alias pstree="pstree -A"
 alias py="python"
+# }}}
+# r# {{{
+alias rz='lrz'
 # }}}
 # s# {{{
 alias sc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
@@ -71,6 +78,8 @@ alias sfc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\)$\" \
     -exec grep -H -n \"\(	\)\|\( \+$\)\" '{}' \;"
 
 alias szshrc="source ~/.zshrc"
+
+alias sz='lsz'
 # }}}
 # t# {{{
 alias t="touch"
@@ -88,6 +97,9 @@ alias vzshfile-dir="v ~/.zsh/modules/file-dir/init.zsh"
 alias vzshgit="v ~/.zsh/modules/git/alias.zsh"
 alias vzshprompt="v ~/.zsh/modules/prompt/functions/prompt_z_setup"
 alias vzshrc="v ~/.zshrc";
+# }}}
+# w# {{{
+alias wgetn='wget --no-check-certificate'
 # }}}
 # x# {{{
 alias xargs="xargs -0"

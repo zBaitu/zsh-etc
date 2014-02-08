@@ -37,6 +37,7 @@ alias gdc="git diff --cached | sed -e 's/^diff --git [^[:space:]]*/Index:/' -e '
 alias gf='git fetch'
 # h
 alias gh='git help'
+alias gha='git help -a'
 # i
 alias ginit='git init'
 # l
@@ -51,3 +52,5 @@ alias gpush='git push -u origin master'
 alias grs='git remote show origin'
 # s
 alias gs='git status'
+# u
+alias gu='git reset --hard HEAD && git clean -f -d && git pull'
