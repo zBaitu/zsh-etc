@@ -1,2 +1,5 @@
 #compdef mt
 #autoload
+
+_arguments \
+    "*::mmt file:_files -g '*.mmt'" && return 0
