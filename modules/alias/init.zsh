@@ -104,3 +104,7 @@ alias wgetn='wget --no-check-certificate'
 # x# {{{
 alias xargs="xargs -0"
 # }}}
+# y# {{{
+alias ycmc='cp ~/.vim/bundle/.ycm_c_conf.py .ycm_extra_conf.py'
+alias ycmcpp='cp ~/.vim/bundle/.ycm_cpp_conf.py .ycm_extra_conf.py'
+# }}}

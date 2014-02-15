@@ -48,7 +48,7 @@ fi
 #
 export CC=clang
 export CXX=clang++
-export CFLAGS=-std=gnu89
+#export CFLAGS=-std=gnu89
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
 export PATH=/home/zBaitu/algorithm/TAOCP/MMIX:/home/zBaitu/compiler/llvm/llvm/build/Release+Asserts/bin:/usr/local/bin:/usr/local/apache2/bin:/usr/local/mysql/bin:$PATH

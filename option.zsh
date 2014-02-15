@@ -23,7 +23,8 @@ zstyle ':zsh:load' pmodule \
   'syntax-highlighting' \
   'prompt' \
   'terminal' \
-  'utility'
+  'utility' \
+  'mmix'
 
 
 #

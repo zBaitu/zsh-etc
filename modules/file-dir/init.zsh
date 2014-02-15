@@ -25,12 +25,6 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 # cd xxx
 #
 # misc# {{{
-alias c.="cd ../"
-alias c..="cd ../../"
-alias c...="cd ../../../"
-alias c....="cd ../../../../"
-alias c-="cd -"
-alias cd.vim="cd ~/.vim"
 # }}}
 # a# {{{
 alias cdai="cd ~/AI"
@@ -47,6 +41,12 @@ alias cdboost="cd ~/C++/boost/boost"
 alias cdbyacc="cd ~/compiler/byacc"
 # }}}
 # c# {{{
+alias c.="cd ../"
+alias c..="cd ../../"
+alias c...="cd ../../../"
+alias c....="cd ../../../../"
+alias c-="cd -"
+alias cd.vim="cd ~/.vim"
 alias cdc="cd ~/C"
 alias cdc++="cd ~/C++"
 alias cdcfe="cd ~/compiler/llvm/cfe-3.3"
@@ -125,6 +125,7 @@ alias cdscheme="cd ~/scheme"
 alias cdsgistl="cd ~/C++/sgi_stl"
 alias cdsqlite="cd ~/DB/SQLite"
 alias cdsrc="cd ~/src"
+alias cdstl="cd ~/C++/STL"
 alias cdstlsoft="cd ~/C++/stlsoft"
 alias cdsvn="cd ~/svn"
 # }}}

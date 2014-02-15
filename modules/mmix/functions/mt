@@ -1,0 +1,11 @@
+if [[ $# -ne 1 ]]; then
+    cat >&2 <<EOF
+Usage: $0 TEST_TARGET
+EOF
+fi
+
+MMT_FILE="$1.mmt"
+MMS_FILE="$1.mms"
+MMIX="$1"
+
+zmmix_tg "${MMT_FILE}" && mmixal -x "${MMS_FILE}" && mmix "${MMIX}"
