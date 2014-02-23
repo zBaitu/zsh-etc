@@ -74,7 +74,7 @@ alias sczsh="find . -type f -iregex \".+\.zsh$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 
 alias sf="find . -type f -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" -print0 | xargs -0 grep -H -n"
-alias sfc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\)$\" \
+alias sfc="find . -wholename './build' -prune , -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\|mmt\)$\" \
     -exec grep -H -n \"\(	\)\|\( \+$\)\" '{}' \;"
 
 alias szshrc="source ~/.zshrc"

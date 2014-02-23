@@ -8,4 +8,4 @@ MMT_FILE="$1"
 MMIX="${MMT_FILE%.mmt}"
 MMS_FILE="${MMIX}.mms"
 
-zmmix_tg "${MMT_FILE}" && mmixal -x "${MMS_FILE}" && mmix "${MMIX}"
+zmmix_tg "${MMT_FILE}" && mmixal "${MMS_FILE}" && mmix "${MMIX}"

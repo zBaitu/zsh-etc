@@ -23,9 +23,14 @@ alias g='git'
 alias ga='git add'
 # b
 alias gb='git branch'
+alias gbd='git branch -d'
+alias gbr='git branch -r'
+alias gbrd='git push origin :'
+alias gbrpush='git push -u origin'
 # c
 alias gci='git commit -am'
 alias gca='git config --global'
+alias gco='git checkout'
 alias gcl='git config --local'
 alias gclone='git clone'
 # d
@@ -47,10 +52,11 @@ alias glog='git log'
 alias gmv='git mv'
 # p
 alias gpull='git pull'
-alias gpush='git push -u origin master'
+alias gpush='git push'
 # r
+alias grpush='git push -u origin master'
 alias grs='git remote show origin'
 # s
 alias gs='git status'
 # u
-alias gu='git reset --hard HEAD && git clean -f -d && git pull'
+alias gup='git reset --hard HEAD && git clean -f -d && git pull'

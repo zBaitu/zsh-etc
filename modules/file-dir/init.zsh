@@ -95,6 +95,7 @@ alias cdlua="cd ~/Lua"
 alias cdmemory="cd ~/OS/basic/memory"
 alias cdmix="cd ~/algorithm/TAOCP/MIX"
 alias cdmmix="cd ~/algorithm/TAOCP/MMIX"
+alias cdmozilla='cd ~/mozilla'
 alias cdmysql="cd ~/DB/mysql"
 alias cdminix="cd ~/OS/minix"
 alias cdnet="cd ~/net"
@@ -119,6 +120,7 @@ alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdruby="cd ~/ruby"
+alias cdrust='cd ~/mozilla/Rust'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/scheme"
@@ -149,6 +151,7 @@ alias cdyii="cd ~/workspace/apache/htdocs/yii"
 # }}}
 # z# {{{
 alias cdz="cd ~/z"
+alias cdzassets='cd ~/z/assets'
 alias cdzcc="cd ~/z/zCC"
 alias cdzcut="cd ~/z/zCUT"
 alias cdzcpput="cd ~/testing/unit_test/zcpput"
