@@ -84,6 +84,7 @@ alias sz='lsz'
 # t# {{{
 alias t="touch"
 alias tree="tree -A"
+alias treei='tree -A -I "build"'
 # }}}
 # v# {{{
 alias v="vim -p"
