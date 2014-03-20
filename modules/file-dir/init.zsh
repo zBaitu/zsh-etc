@@ -95,7 +95,7 @@ alias cdlua="cd ~/Lua"
 alias cdmemory="cd ~/OS/basic/memory"
 alias cdmix="cd ~/algorithm/TAOCP/MIX"
 alias cdmmix="cd ~/algorithm/TAOCP/MMIX"
-alias cdmozilla='cd ~/mozilla'
+alias cdmozilla='cd ~/Mozilla'
 alias cdmysql="cd ~/DB/mysql"
 alias cdminix="cd ~/OS/minix"
 alias cdnet="cd ~/net"
@@ -120,7 +120,7 @@ alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdruby="cd ~/ruby"
-alias cdrust='cd ~/mozilla/Rust'
+alias cdrust='cd ~/Mozilla/Rust'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/scheme"

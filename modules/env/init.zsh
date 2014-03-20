@@ -46,8 +46,8 @@ fi
 #
 # env variable
 #
-export CC=clang
-export CXX=clang++
+#export CC=clang
+#export CXX=clang++
 #export CFLAGS=-std=gnu89
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
