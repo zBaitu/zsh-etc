@@ -11,6 +11,7 @@ zstyle ':zsh:*:*' color 'yes'
 # The order matters.
 zstyle ':zsh:load' pmodule \
   'alias' \
+  'apt' \
   'archive' \
   'completion' \
   'editor' \
