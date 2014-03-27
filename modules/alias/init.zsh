@@ -53,7 +53,6 @@ alias pstree="pstree -A"
 alias py="python"
 # }}}
 # r# {{{
-alias rz='lrz'
 # }}}
 # s# {{{
 alias sc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
@@ -77,9 +76,9 @@ alias sf="find . -type f -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" -print0 | xargs
 alias sfc="find . -wholename './build' -prune , -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\|mmt\)$\" \
     -exec grep -H -n \"\(	\)\|\( \+$\)\" '{}' \;"
 
+alias shutdown='sudo shutdown -P now'
 alias szshrc="source ~/.zshrc"
 
-alias sz='lsz'
 # }}}
 # t# {{{
 alias t="touch"
@@ -93,6 +92,7 @@ alias vd="/usr/local/bin/vimdiff"
 alias vgitignore="v ~/.gitignore"
 alias vvimrc="vim ~/.vim/vimrc"
 alias vzshalias="v ~/.zsh/modules/alias/init.zsh"
+alias vzshapt='v ~/.zsh/modules/apt/init.zsh'
 alias vzshenv="v ~/.zsh/modules/env/init.zsh"
 alias vzshfile-dir="v ~/.zsh/modules/file-dir/init.zsh"
 alias vzshgit="v ~/.zsh/modules/git/alias.zsh"

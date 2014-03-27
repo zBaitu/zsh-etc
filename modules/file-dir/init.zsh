@@ -124,6 +124,7 @@ alias cdrust='cd ~/Mozilla/Rust'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/scheme"
+alias cdservo='cd ~/Mozilla/Servo'
 alias cdsgistl="cd ~/C++/sgi_stl"
 alias cdsqlite="cd ~/DB/SQLite"
 alias cdsrc="cd ~/src"

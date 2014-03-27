@@ -51,4 +51,4 @@ export CXX=clang++
 #export CFLAGS=-std=gnu89
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
-export PATH=/home/zBaitu/algorithm/TAOCP/MMIX:/home/baitu/compiler/llvm/bin/:/usr/local/bin:/usr/local/apache2/bin:/usr/local/mysql/bin:$PATH
+export PATH=/home/baitu/algorithm/TAOCP/MMIX:/home/baitu/compiler/llvm/bin/:/usr/local/bin:/opt/lampp/bin:$PATH
