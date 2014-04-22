@@ -1,8 +1,36 @@
+is_skip_git()
+{
+    local zsh_prompt_git_ignore_file=$HOME/.zpromptgitignore
+    if [[ ! -f "${zsh_prompt_git_ignore_file}" ]]; then
+        echo 1
+        return
+    fi
+
+    local cur_dir=$(pwd)
+    while read line
+    do
+        local ignore_dir="${line}"
+        local match=$(expr match "${cur_dir}" "^${ignore_dir}")
+        if [[ $match -gt 0 ]]; then
+            echo 1
+            return
+        fi
+    done < "${zsh_prompt_git_ignore_file}"
+
+    echo 0
+    return
+}
+
 # get the name of the branch we are on
-function git_prompt_info() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null) || \
-  ref=$(git rev-parse --short HEAD 2> /dev/null) || return
-  echo "$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$ZSH_THEME_GIT_PROMPT_SUFFIX"
+git_prompt_info() {
+    local is_skiped=$(is_skip_git)
+    if [[ $is_skiped -eq 1 ]]; then
+        return
+    fi
+
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || \
+    ref=$(git rev-parse --short HEAD 2> /dev/null) || return
+    echo "$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$ZSH_THEME_GIT_PROMPT_SUFFIX"
 }
 
 
