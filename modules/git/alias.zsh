@@ -20,7 +20,7 @@ zstyle -s ':zsh:module:git:status:ignore' submodules '_git_status_ignore_submodu
 #
 alias g='git'
 # a
-alias ga='git add'
+alias ga='git add .'
 # b
 alias gba='git branch -a'
 alias gb='git branch'
@@ -48,7 +48,7 @@ alias gha='git help -a'
 # i
 alias ginit='git init'
 # l
-alias gl='git ls-files'
+alias gls='git ls-files'
 alias glog='git log'
 # m
 alias gm='git merge'

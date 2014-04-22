@@ -33,6 +33,9 @@ alias httpdstop="service httpd stop"
 # l# {{{
 alias l="ll"
 alias la="l -a"
+alias lamppstart='sudo /opt/lampp/lampp start'
+alias lamppstop='sudo /opt/lampp/lampp stop'
+alias lampprestart='sudo /opt/lampp/lampp restart'
 alias lrt="l -rt"
 # }}}
 # m# {{{
@@ -66,6 +69,8 @@ alias scphp="find . -type f -iregex \".+\.php$\" -exec wc -l '{}' \; \
 alias scpy="find . -type f -iregex \".+\.py$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scrb="find . -type f -iregex \".+\.rb$\" -exec wc -l '{}' \; \
+          | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+alias scrs="find . -type f -iregex \".+\.rs$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scscm="find . -type f -iregex \".+\.scm$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"

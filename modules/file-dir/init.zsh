@@ -29,6 +29,7 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 # a# {{{
 alias cdai="cd ~/AI"
 alias cdalgorithm="cd ~/algorithm"
+alias cdandroid='cd ~/wireless/android'
 alias cdapache="cd ~/apache"
 # }}}
 # b# {{{
@@ -59,6 +60,7 @@ alias cddb="cd ~/DB"
 alias cddoc="cd ~/doc"
 # }}}
 # f# {{{
+alias cdfirefoxos='cd ~/Mozilla/Firefox-OS'
 alias cdflex="cd ~/compiler/flex"
 alias cdfreebsd="cd ~/OS/FreeBSD"
 # }}}
@@ -81,6 +83,7 @@ alias cdiputils="cd ~/net/iputils"
 alias cdjs="cd ~/web/js"
 # }}}
 # l# {{{
+alias cdlampp='cd /opt/lampp/'
 alias cdleda="cd ~/algorithm/lib/LEDA"
 alias cdlibcxx="cd ~/compiler/llvm/libcxx"
 alias cdlibcxxabi="cd ~/compiler/llvm/libcxxabi"
@@ -138,7 +141,7 @@ alias cdtesting="cd ~/testing"
 alias cdthread="cd ~/OS/basic/thread"
 alias cdtmp="cd ~/tmp"
 alias cdtools="cd ~/tools"
-alias cdtriplese="cd ~/workspace/apache/htdocs/tripleSE"
+alias cdtriplese='cd ~/web/php/tripleSE'
 # }}}
 # u# {{{
 alias cdusrincludecpp="cd /usr/include/c++/4.4.0"
