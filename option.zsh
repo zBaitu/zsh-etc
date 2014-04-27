@@ -21,6 +21,7 @@ zstyle ':zsh:load' pmodule \
   'history' \
   'file-dir' \
   'spectrum' \
+  'rust' \
   'syntax-highlighting' \
   'prompt' \
   'terminal' \

@@ -89,6 +89,7 @@ alias szshrc="source ~/.zshrc"
 alias t="touch"
 alias tree="tree -A"
 alias treei='tree -A -I "build"'
+alias treed='tree -d'
 # }}}
 # v# {{{
 alias v="vim -p"

@@ -46,9 +46,9 @@ fi
 #
 # env variable
 #
-export CC=clang
-export CXX=clang++
-export CFLAGS=-std=gnu89
+#export CC=clang
+#export CXX=clang++
+#export CFLAGS=-std=gnu89
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PAGER="most"
 #export PATH=/home/baitu/algorithm/TAOCP/MMIX:/home/baitu/compiler/llvm/bin/:/usr/local/bin:/home/baitu/wireless/android/adt/sdk/platform-tools:$PATH:/opt/lampp/bin:

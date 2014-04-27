@@ -60,6 +60,7 @@ alias cddb="cd ~/DB"
 alias cddoc="cd ~/doc"
 # }}}
 # f# {{{
+alias cdfirefox='cd ~/Mozilla/Firefox'
 alias cdfirefoxos='cd ~/Mozilla/Firefox-OS'
 alias cdflex="cd ~/compiler/flex"
 alias cdfreebsd="cd ~/OS/FreeBSD"
