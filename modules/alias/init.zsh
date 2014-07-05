@@ -9,6 +9,7 @@ alias cscopecpp="find . -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" > cscope.files; 
 alias cscopephp="find . -iregex \".*\.\(php\|inc\)$\" > cscope.files; cscope -bqk"
 alias ctagscpp="ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"
 alias ctagsphp="ctags -R --languages=php"
+alias ctagsrs='ctags --options=/home/baitu/.vim/bundle/majutsushi-tagbar/plugin/ctags.rust -R'
 alias ctcs="ctagscpp; cscopecpp"
 alias ctcsphp="ctagsphp; cscopephp"
 # }}}
@@ -56,13 +57,23 @@ alias pstree="pstree -A"
 alias py="python"
 # }}}
 # r# {{{
+alias rc='rustc'
+alias rca='rustc --crate-type=staticlib'
+alias rclib='rustc --crate-type=lib'
+alias rcpe='rustc --pretty expanded'
+alias rcso='rustc --crate-type=dylib'
+alias rct='rustc --test'
 # }}}
 # s# {{{
 alias sc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias sc1="find . -maxdepth 1 -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
            | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
-alias scmms="find . -maxdepth 1 -type f -iregex \".+\.mms$\" -exec wc -l '{}' \; \
+alias scjava="find . -type f -iregex \".+\.java$\" -exec wc -l '{}' \; \
+           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+alias scjs="find . -type f -iregex \".+\.js$\" -exec wc -l '{}' \; \
+           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+alias scmms="find . -type f -iregex \".+\.mms$\" -exec wc -l '{}' \; \
            | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scphp="find . -type f -iregex \".+\.php$\" -exec wc -l '{}' \; \
           | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"

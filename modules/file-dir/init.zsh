@@ -150,6 +150,7 @@ alias cdut="cd ~/testing/unit-test"
 # }}}
 # w# {{{
 alias cdweb="cd ~/web"
+alias cdworkspace='cd ~/workspace'
 # }}}
 # y# {{{
 alias cdyii="cd ~/workspace/apache/htdocs/yii"

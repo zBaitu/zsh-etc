@@ -61,6 +61,7 @@ alias grpush='git push -u origin master'
 alias grs='git remote show origin'
 # s
 alias gs='git status'
+alias gsh='git show HEAD'
 # t
 alias gtag='git tag'
 # u
