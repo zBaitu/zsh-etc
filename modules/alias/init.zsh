@@ -9,7 +9,7 @@ alias cscopecpp="find . -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" > cscope.files; 
 alias cscopephp="find . -iregex \".*\.\(php\|inc\)$\" > cscope.files; cscope -bqk"
 alias ctagscpp="ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"
 alias ctagsphp="ctags -R --languages=php"
-alias ctagsrs='ctags --options=/home/baitu/.vim/bundle/majutsushi-tagbar/plugin/ctags.rust -R'
+alias ctagsrs='ctags --options=/home/baitu/.vim/bundle/tagbar/plugin/ctags.rust -R'
 alias ctcs="ctagscpp; cscopecpp"
 alias ctcsphp="ctagsphp; cscopephp"
 # }}}
