@@ -57,12 +57,6 @@ alias pstree="pstree -A"
 alias py="python"
 # }}}
 # r# {{{
-alias rc='rustc'
-alias rca='rustc --crate-type=staticlib'
-alias rclib='rustc --crate-type=lib'
-alias rcpe='rustc --pretty expanded'
-alias rcso='rustc --crate-type=dylib'
-alias rct='rustc --test'
 # }}}
 # s# {{{
 alias sc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \

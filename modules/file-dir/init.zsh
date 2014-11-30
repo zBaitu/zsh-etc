@@ -153,6 +153,7 @@ alias cdweb="cd ~/web"
 alias cdworkspace='cd ~/workspace'
 # }}}
 # y# {{{
+alias cdyaml='cd ~/compiler/yaml'
 alias cdyii="cd ~/workspace/apache/htdocs/yii"
 # }}}
 # z# {{{
