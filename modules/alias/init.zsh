@@ -38,6 +38,7 @@ alias lamppstart='sudo /opt/lampp/lampp start'
 alias lamppstop='sudo /opt/lampp/lampp stop'
 alias lampprestart='sudo /opt/lampp/lampp restart'
 alias lrt="l -rt"
+alias lrs="l -rS"
 # }}}
 # m# {{{
 alias m="mmix"
@@ -102,6 +103,7 @@ alias vcolor="v ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim"
 alias vd="/usr/local/bin/vimdiff"
 alias vgitignore="v ~/.gitignore"
 alias vvimrc="vim ~/.vim/vimrc"
+alias vrsalias='vim ~/.zsh/modules/rust/alias.zsh'
 alias vzshalias="v ~/.zsh/modules/alias/init.zsh"
 alias vzshapt='v ~/.zsh/modules/apt/init.zsh'
 alias vzshenv="v ~/.zsh/modules/env/init.zsh"

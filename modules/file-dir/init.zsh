@@ -124,7 +124,7 @@ alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdruby="cd ~/ruby"
-alias cdrust='cd ~/Mozilla/Rust'
+alias cdrs='cd ~/Mozilla/Rust'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/scheme"
