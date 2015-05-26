@@ -116,7 +116,7 @@ alias vzshrc="v ~/.zshrc";
 alias wgetn='wget --no-check-certificate'
 # }}}
 # x# {{{
-alias xargs="xargs -0"
+alias xargs0="xargs -0"
 # }}}
 # y# {{{
 alias ycmc='cp ~/.vim/bundle/.ycm_c_conf.py .ycm_extra_conf.py'

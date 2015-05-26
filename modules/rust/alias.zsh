@@ -17,6 +17,7 @@ alias cgnb='cargo new --vcs none --bin'
 alias cgp='cargo package'
 
 alias cgt='cargo test'
+alias cgtb='cargo test --no-run'
 
 
 

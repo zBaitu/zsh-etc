@@ -213,3 +213,4 @@ _arguments -s :  \
     "$_rustc_opts_switches[@]" \
     "$_rustc_opts_vals[@]" \
     '::files:_files -g "*.rs"'
+
