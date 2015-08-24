@@ -25,6 +25,8 @@ for index ({1..9}) alias "$index"="cd +${index}"; unset index
 # cd xxx
 #
 # misc# {{{
+alias cd.vim="cd ~/.vim"
+alias cd.cg="cd ~/.cargo"
 # }}}
 # a# {{{
 alias cdai="cd ~/AI"
@@ -47,10 +49,10 @@ alias c..="cd ../../"
 alias c...="cd ../../../"
 alias c....="cd ../../../../"
 alias c-="cd -"
-alias cd.vim="cd ~/.vim"
 alias cdc="cd ~/C"
 alias cdc++="cd ~/C++"
 alias cdcfe="cd ~/compiler/llvm/cfe-3.3"
+alias cdclang='cd ~/compiler/clang'
 alias cdcpp="cd ~/C++"
 alias cdcompiler="cd ~/compiler"
 alias cdcurl="cd ~/net/curl"
@@ -68,8 +70,9 @@ alias cdfreebsd="cd ~/OS/FreeBSD"
 # g# {{{
 alias cdgame="cd ~/game"
 alias cdgcc="cd ~/compiler/gcc"
-alias cdgnucxx="cd ~/compiler/gcc/libstdc++-v3"
 alias cdglibc="cd ~/C/glibc"
+alias cdgnucxx="cd ~/compiler/gcc/libstdc++-v3"
+alias cdgo="cd ~/Go"
 alias cdgoogletest="cd ~/testing/unit-test/googletest"
 # }}}
 # h# {{{
@@ -110,7 +113,7 @@ alias cdos="cd ~/OS"
 alias cdopenbsd="cd ~/OS/OpenBSD"
 # }}}
 # p# {{{
-alias cdphp="cd ~/web/php"
+alias cdphp="cd ~/PHP"
 alias cdpython="cd ~/Python"
 # }}}
 # r# {{{
@@ -123,11 +126,11 @@ alias cdrespython="cd ~/res/python"
 alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
-alias cdruby="cd ~/ruby"
+alias cdrb="cd ~/Ruby"
 alias cdrs='cd ~/Mozilla/Rust'
 # }}}
 # s# {{{
-alias cdscheme="cd ~/scheme"
+alias cdscheme="cd ~/Scheme"
 alias cdservo='cd ~/Mozilla/Servo'
 alias cdsgistl="cd ~/C++/sgi_stl"
 alias cdsqlite="cd ~/DB/SQLite"
@@ -150,7 +153,7 @@ alias cdut="cd ~/testing/unit-test"
 # }}}
 # w# {{{
 alias cdweb="cd ~/web"
-alias cdworkspace='cd ~/workspace'
+alias cdws='cd ~/workspace'
 # }}}
 # y# {{{
 alias cdyaml='cd ~/compiler/yaml'
