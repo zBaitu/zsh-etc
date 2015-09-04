@@ -1,0 +1,17 @@
+#
+# common
+#
+build/                            
+
+**/*.swp
+**/cscope.*
+**/tags
+
+
+
+
+#
+# MMIX
+#
+*.mmo
+test_*.mms

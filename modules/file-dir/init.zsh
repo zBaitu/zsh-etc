@@ -128,6 +128,8 @@ alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdrb="cd ~/Ruby"
 alias cdrs='cd ~/Mozilla/Rust'
+alias cdrscrates='cd ~/Mozilla/Rust/crates'
+alias cdrstest='cd ~/workspace/Rust/test'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/Scheme"
@@ -154,6 +156,7 @@ alias cdut="cd ~/testing/unit-test"
 # w# {{{
 alias cdweb="cd ~/web"
 alias cdws='cd ~/workspace'
+alias cdwsrs='cd ~/workspace/Rust'
 # }}}
 # y# {{{
 alias cdyaml='cd ~/compiler/yaml'
@@ -169,6 +172,7 @@ alias cdzlib="cd ~/z/zLib"
 alias cdzlibc="cd ~/z/zLibC"
 alias cdzlibmmix="cd ~/z/zLibmmix"
 alias cdzmmix="cd ~/z/zMMIX"
+alias cdzrs="cd ~/z/rs"
 alias cdzscheme="cd ~/z/zScheme"
 alias cdzshdoc="cd ~/doc/zsh"
 alias cd.zsh="cd ~/.zsh"

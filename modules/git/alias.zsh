@@ -37,9 +37,9 @@ alias gcl='git config --local'
 alias gclone='git clone'
 # d
 alias gd="git diff | sed -e 's/^diff --git [^[:space:]]*/Index:/' -e 's/^index.*/\
-===================================================================/' > git_diff && v git_diff"
+===================================================================/' > /tmp/git_diff && v /tmp/git_diff"
 alias gdc="git diff --cached | sed -e 's/^diff --git [^[:space:]]*/Index:/' -e 's/^index.*/\
-===================================================================/' > git_diff && v git_diff"
+===================================================================/' > /tmp/git_diff && v /tmp/git_diff"
 # f
 alias gf='git fetch'
 # h
@@ -61,6 +61,7 @@ alias grpush='git push -u origin master'
 alias grs='git remote show origin'
 # s
 alias gs='git status'
+alias gss='git status -s'
 alias gsh='git show HEAD'
 # t
 alias gtag='git tag'

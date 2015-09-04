@@ -1,0 +1,23 @@
+[user]
+    name = zBaitu
+    email = zbaitu@gmail.com
+
+[http]
+	# http SA
+    sslverify = false
+
+[color]
+    ui = true
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = No
+
+[push]
+    default = matching
