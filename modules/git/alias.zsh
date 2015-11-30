@@ -48,8 +48,8 @@ alias gha='git help -a'
 # i
 alias ginit='git init'
 # l
+alias gl='git log'
 alias gls='git ls-files'
-alias glog='git log'
 # m
 alias gm='git merge'
 alias gmv='git mv'

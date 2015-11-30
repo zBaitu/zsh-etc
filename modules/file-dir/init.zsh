@@ -62,8 +62,8 @@ alias cddb="cd ~/DB"
 alias cddoc="cd ~/doc"
 # }}}
 # f# {{{
-alias cdfirefox='cd ~/Mozilla/Firefox'
-alias cdfirefoxos='cd ~/Mozilla/Firefox-OS'
+alias cdfirefox='cd ~/mozilla/Firefox'
+alias cdfirefoxos='cd ~/mozilla/Firefox-OS'
 alias cdflex="cd ~/compiler/flex"
 alias cdfreebsd="cd ~/OS/FreeBSD"
 # }}}
@@ -73,6 +73,7 @@ alias cdgcc="cd ~/compiler/gcc"
 alias cdglibc="cd ~/C/glibc"
 alias cdgnucxx="cd ~/compiler/gcc/libstdc++-v3"
 alias cdgo="cd ~/Go"
+alias cdgoagent='cd ~/tools/goagent'
 alias cdgoogletest="cd ~/testing/unit-test/googletest"
 # }}}
 # h# {{{
@@ -102,7 +103,7 @@ alias cdlua="cd ~/Lua"
 alias cdmemory="cd ~/OS/basic/memory"
 alias cdmix="cd ~/algorithm/TAOCP/MIX"
 alias cdmmix="cd ~/algorithm/TAOCP/MMIX"
-alias cdmozilla='cd ~/Mozilla'
+alias cdmozilla='cd ~/mozilla'
 alias cdmysql="cd ~/DB/mysql"
 alias cdminix="cd ~/OS/minix"
 alias cdnet="cd ~/net"
@@ -127,13 +128,13 @@ alias cdresruby="cd ~/res/ruby"
 alias cdrestools="cd ~/res/tools"
 alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdrb="cd ~/Ruby"
-alias cdrs='cd ~/Mozilla/Rust'
-alias cdrscrates='cd ~/Mozilla/Rust/crates'
-alias cdrstest='cd ~/workspace/Rust/test'
+alias cdrs='cd ~/mozilla/rust'
+alias cdrscrates='cd ~/mozilla/rust/crates'
+alias cdrstest='cd ~/workspace/rust/test'
 # }}}
 # s# {{{
 alias cdscheme="cd ~/Scheme"
-alias cdservo='cd ~/Mozilla/Servo'
+alias cdservo='cd ~/mozilla/Servo'
 alias cdsgistl="cd ~/C++/sgi_stl"
 alias cdsqlite="cd ~/DB/SQLite"
 alias cdsrc="cd ~/src"
@@ -156,7 +157,7 @@ alias cdut="cd ~/testing/unit-test"
 # w# {{{
 alias cdweb="cd ~/web"
 alias cdws='cd ~/workspace'
-alias cdwsrs='cd ~/workspace/Rust'
+alias cdwsrs='cd ~/workspace/rust'
 # }}}
 # y# {{{
 alias cdyaml='cd ~/compiler/yaml'

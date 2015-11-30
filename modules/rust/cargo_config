@@ -1,0 +1,3 @@
+[http]
+proxy = "http://localhost:8087"
+timeout = 600000   # Timeout for each HTTP request, in milliseconds
