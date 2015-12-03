@@ -4,6 +4,8 @@
 alias cg='cargo'
 
 alias cgb='cargo build'
+alias cgbb='cargo build --bin'
+alias cgbe='cargo build --example'
 alias cgbv='cargo build --verbose'
 alias cgbr='cargo build --release'
 alias cgbrv='cargo build --release --verbose'

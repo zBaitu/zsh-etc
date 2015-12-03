@@ -130,6 +130,8 @@ alias cdrestoolsvim="cd ~/res/tools/vim"
 alias cdrb="cd ~/Ruby"
 alias cdrs='cd ~/mozilla/rust'
 alias cdrscrates='cd ~/mozilla/rust/crates'
+alias cdsede='cd ~/mozilla/rust/crates/rustc-serialize'
+alias cdrustfmt='cd ~/mozilla/rust/crates/rustfmt'
 alias cdrstest='cd ~/workspace/rust/test'
 # }}}
 # s# {{{

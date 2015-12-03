@@ -2,6 +2,7 @@
 # common
 #
 build/                            
+target/
 
 **/*.swp
 **/cscope.*
@@ -15,3 +16,11 @@ build/
 #
 *.mmo
 test_*.mms
+
+
+
+
+#
+# Rust
+#
+Cargo.lock
