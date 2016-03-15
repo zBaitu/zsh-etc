@@ -17,6 +17,7 @@ alias ctcsphp="ctagsphp; cscopephp"
 alias df="df -lh"
 alias dum="du --max-depth=1 | sort -n | tail | head -9"
 alias dirs="dirs -v"
+alias dnsrestart="sudo /etc/init.d/nscd restart"
 # }}}
 # f# {{{
 alias fd="find . -type d -name"
@@ -63,6 +64,8 @@ alias py="python"
 alias sc="find . -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias sc1="find . -maxdepth 1 -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\)$\" -exec wc -l '{}' \; \
+    | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+alias scgo="find . -type f -iregex \".+\.go$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scjava="find . -type f -iregex \".+\.java$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"

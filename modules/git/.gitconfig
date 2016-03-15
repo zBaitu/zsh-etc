@@ -5,6 +5,7 @@
 [http]
 	# http SA
     sslverify = false
+	#proxy = 127.0.0.1:8067
 
 [color]
     ui = true

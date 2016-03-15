@@ -6,9 +6,10 @@ alias cg='cargo'
 alias cgb='cargo build'
 alias cgbb='cargo build --bin'
 alias cgbe='cargo build --example'
-alias cgbv='cargo build --verbose'
+alias cgbj='cargo build -j'
 alias cgbr='cargo build --release'
 alias cgbrv='cargo build --release --verbose'
+alias cgbv='cargo build --verbose'
 
 alias cgc='cargo clean'
 
@@ -26,6 +27,7 @@ alias cgp='cargo package'
 alias cgt='cargo test -- --nocapture'
 alias cgtb='cargo test --no-run'
 alias cgtn='cargo test'
+alias cgtt='cargo test --test'
 alias cgtv='cargo test --verbose'
 
 

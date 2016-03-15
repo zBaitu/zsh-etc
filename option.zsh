@@ -42,7 +42,7 @@ zstyle ':zsh:module:prompt' theme 'z'
 # Editor
 #
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':zsh:module:editor' keymap 'vi'
+zstyle ':zsh:module:editor' keymap 'emacs'
 
 
 #

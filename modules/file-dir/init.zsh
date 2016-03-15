@@ -104,6 +104,7 @@ alias cdmemory="cd ~/OS/basic/memory"
 alias cdmix="cd ~/algorithm/TAOCP/MIX"
 alias cdmmix="cd ~/algorithm/TAOCP/MMIX"
 alias cdmozilla='cd ~/mozilla'
+alias cdmq="cd ~/middleware/mq"
 alias cdmysql="cd ~/DB/mysql"
 alias cdminix="cd ~/OS/minix"
 alias cdnet="cd ~/net"
@@ -160,6 +161,7 @@ alias cdut="cd ~/testing/unit-test"
 alias cdweb="cd ~/web"
 alias cdws='cd ~/workspace'
 alias cdwsrs='cd ~/workspace/rust'
+alias cdwsrse='cd ~/workspace/rust/examples'
 # }}}
 # y# {{{
 alias cdyaml='cd ~/compiler/yaml'
