@@ -1,5 +1,7 @@
+
 [http]
-timeout = 600000   # Timeout for each HTTP request, in milliseconds
+timeout = 600000
 
 [registry]
-index = "git://crates.mirrors.ustc.edu.cn/index"
+token = "mOhGS55dnlryYJhdi3JRVRjypjQBuwGQ"
+#index = "git://crates.mirrors.ustc.edu.cn/index"

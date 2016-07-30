@@ -64,6 +64,6 @@ alias gs='git status'
 alias gss='git status -s'
 alias gsh='git show HEAD'
 # t
-alias gtag='git tag'
+alias gt='git tag'
 # u
 alias gup='git reset --hard HEAD && git clean -f -d && git pull'

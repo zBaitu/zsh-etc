@@ -79,12 +79,15 @@ alias scpy="find . -type f -iregex \".+\.py$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scrb="find . -type f -iregex \".+\.rb$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
-alias scrs="find . -type f -iregex \".+\.rs$\" -exec wc -l '{}' \; \
-    | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+#alias scrs="find . -type f -iregex \".+\.rs$\" -exec wc -l '{}' \; \
+#    | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias scscm="find . -type f -iregex \".+\.scm$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
 alias sczsh="find . -type f -iregex \".+\.zsh$\" -exec wc -l '{}' \; \
     | awk 'BEGIN{ sum=0 } { sum+=\$1 } END{ printf( \"%d\\n\", sum ) }'"
+
+alias scrs="find . -type f -name '*.rs' -exec grep -v '^\s*$' '{}' \; | wc -l"
+
 
 alias sf="find . -type f -iregex \".*\.\(h\|hpp\|c\|cc\|cpp\)$\" -print0 | xargs -0 grep -H -n"
 alias sfc="find . -wholename './build' -prune , -type f -iregex \".+\.\(h\|hpp\|c\|cc\|cpp\|l\|mms\|mmt\)$\" \
